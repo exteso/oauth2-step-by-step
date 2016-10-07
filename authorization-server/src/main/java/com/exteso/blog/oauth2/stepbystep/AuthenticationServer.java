@@ -1,4 +1,4 @@
-package com.exteso.oauthtest;
+package com.exteso.blog.oauth2.stepbystep;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
