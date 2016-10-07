@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.exteso.oauthtest</groupId>
+    <groupId>com.exteso.blog.oauth2.step-by-step</groupId>
     <artifactId>resource-server</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>resource-server</name>
