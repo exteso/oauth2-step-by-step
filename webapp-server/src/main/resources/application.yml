@@ -1,0 +1,21 @@
+server:
+  port: 9999
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+spring:
+  aop:
+    proxy-target-class: true
+
+security:
+  oauth2:
+    resource:
+      jwt:
+        keyUri: http://localhost:8080/auth/oauth/token_key
+
+
+resourceServerClient:
+  accessTokenUri: http://localhost:8080/auth/oauth/token
+  clientId: service-account-1
+  clientSecret: service-account-1-secret

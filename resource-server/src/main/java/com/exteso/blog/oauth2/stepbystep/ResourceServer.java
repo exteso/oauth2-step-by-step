@@ -26,13 +26,13 @@ public class ResourceServer {
 
     private String message = "Hello world!";
 
-    @PreAuthorize("hasRole('ROLE_RS_READ')")
+    @PreAuthorize("#oauth2.hasScope('resource-server-read')")
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public Map<String, String> home() {
         return Collections.singletonMap("message", message);
     }
 
-    @PreAuthorize("hasRole('ROLE_RS_WRITE')")
+    @PreAuthorize("#oauth2.hasScope('resource-server-write')")
     @RequestMapping(value = "/", method = RequestMethod.POST)
     public void updateMessage(@RequestBody String message) {
         this.message = message;

@@ -18,5 +18,6 @@
   <modules>
     <module>authorization-server</module>
     <module>resource-server</module>
+    <module>webapp-server</module>
   </modules>
 </project>
