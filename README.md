@@ -1,3 +1,5 @@
+This repo has been started by [@syjer](https://github.com/syjer) as [oauthtest](https://github.com/exteso/oauthtest), to cleanup history and make it cleaner for a blog post I created this new Repo
+
 This example is based on the following resources:
 
  - http://stytex.de/blog/2016/02/01/spring-cloud-security-with-oauth2/
