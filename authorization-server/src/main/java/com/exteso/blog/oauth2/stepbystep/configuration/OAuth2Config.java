@@ -63,7 +63,6 @@ public class OAuth2Config extends AuthorizationServerConfigurerAdapter {
                 .authorizedGrantTypes("client_credentials")
                 .scopes("resource-server-read", "resource-server-write")
                 .accessTokenValiditySeconds(60);
-        }
-
     }
+
 }
